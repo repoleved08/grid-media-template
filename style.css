@@ -9,10 +9,18 @@ h1{
     color: white;
     font-weight: bold;
 }
+.content-1{
+    text-align: start;
+}
 .container{
     background-color: rgb(37, 29, 56);
     color: white;
     text-align: center;
+    padding-bottom: 50px;
+}
+.followers{
+    color: white;
+    font-size: 13px;
 }
 .text-content, .fb-g{
     display: grid;
@@ -66,18 +74,15 @@ h1{
     background-color: #45336180;
     border-radius: 5px;
 }
-.overview h3{
+.overview{
     text-align: start;
     margin-left: 60px;
     margin-top: 10px;
 }
-
-
 .wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    grid-auto-columns: minmax(100px, auto);
     margin: 10px 60px 10px 60px;
   }
   .one {
@@ -132,6 +137,50 @@ h1{
 @media screen and (max-width: 600px){
     .wrapper{
         display: grid;
-        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
     }
+    .text-content{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .content-1{
+        text-align: center;
+    }
+    .content-box{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .one {
+        background-color: #3d1c7586;
+        border-radius: 4px;
+        height: 160px;
+        grid-row: 1;
+      }
+      .two {
+        background-color: #3d1c7586;
+        border-radius: 4px;
+        grid-row: 2;
+      }
+      .three {
+        background-color: #3d1c7586;
+        border-radius: 4px;
+        grid-row: 3;
+      }
+      .four {
+        background-color: #3d1c7586;
+        border-radius: 4px;
+        grid-row: 4;
+      }
+      .fb-box, .ig-box, .tw-box, .yt-box{
+        width: 250px;
+        height: 250px;
+        background-color: #45336180;
+        border-radius: 5px;
+    }
+    .content-1{
+        border-bottom: 1px solid rgb(54, 41, 68);
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    
 }
