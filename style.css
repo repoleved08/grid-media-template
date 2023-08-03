@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+h1{
+    font-size: 42px;
+    color: white;
+    font-weight: bold;
+}
+.container{
+    background-color: rgb(37, 29, 56);
+    color: white;
+    text-align: center;
+}
+.text-content, .fb-g{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px 55px 0px 55px;
+    color: white;
+    padding-top: 20px;
+}
+.fb-box p, .ig-box p, .tw-box p{
+    padding-top: 35px;
+    font-size: 10px;
+    color: rgb(72, 89, 247);
+    
+}
+.yt-box p{
+    padding-top: 10px;
+    font-size: 10px;
+    color: red;
+    padding-top: 35px;
+}
+.content-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    color: black;
+    gap: 10px;
+    margin: 10px 60px 0px 60px;
+}
+.fb-box{
+    width: 200px;
+    height: 200px;
+    background-color: #45336180;
+    border-radius: 5px;
+}
+.tw-box{
+    width: 200px;
+    height: 200px;
+    background-color: #45336180;
+    border-radius: 5px;
+}
+.ig-box{
+    width: 200px;
+    height: 200px;
+    background-color: #45336180;
+    border-radius: 5px;
+}
+.yt-box{
+    width: 200px;
+    height: 200px;
+    background-color: #45336180;
+    border-radius: 5px;
+}
+.overview h3{
+    text-align: start;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-columns: minmax(100px, auto);
+    margin: 10px 60px 10px 60px;
+  }
+  .one {
+    background-color: #3d1c7586;
+    border-radius: 4px;
+    height: 160px;
+    grid-row: 1;
+  }
+  .two {
+    background-color: #3d1c7586;
+    border-radius: 4px;
+    grid-row: 1;
+  }
+  .three {
+    background-color: #3d1c7586;
+    border-radius: 4px;
+    grid-row: 1;
+  }
+  .four {
+    background-color: #3d1c7586;
+    border-radius: 4px;
+    grid-row: 1;
+  }
+  .top, .figures{
+    display: grid;
+    justify-content: space-between;
+    padding-top: 45px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  #three{
+    color: red;
+    font-size: 10px;
+  }
+  #thre{
+    color: rgb(0, 233, 58);
+    font-size: 10px;
+  }
+  img{
+    width: 15px;
+  }
+/* @media (max-width: 600px) {
+    .wrapper {
+        display: grid;
+    }
+    .text-content{
+        display: grid;
+        grid-template-rows: 1fr;
+
+    }
+  } */
+@media screen and (max-width: 600px){
+    .wrapper{
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+}
