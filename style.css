@@ -51,24 +51,28 @@ h1{
     margin: 10px 60px 0px 60px;
 }
 .fb-box{
+    border-top: 4px solid blue;
     width: 200px;
     height: 200px;
     background-color: #45336180;
     border-radius: 5px;
 }
 .tw-box{
+    border-top: 4px solid rgb(44, 44, 155);
     width: 200px;
     height: 200px;
     background-color: #45336180;
     border-radius: 5px;
 }
 .ig-box{
+    border-top: 4px solid rgb(247, 0, 255);
     width: 200px;
     height: 200px;
     background-color: #45336180;
     border-radius: 5px;
 }
 .yt-box{
+    border-top: 4px solid rgb(255, 17, 0);
     width: 200px;
     height: 200px;
     background-color: #45336180;
